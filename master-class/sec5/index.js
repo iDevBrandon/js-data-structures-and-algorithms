@@ -21,3 +21,28 @@ function charCount(str) {
   // return object at end
   return result;
 }
+
+// 23. Look back and Refactor
+function charCount(str) {
+  let obj = {};
+  // loop over strings
+  for (let char of str) {
+    if (isAlphaNumberic(char)) {
+      char = char.toLowerCase();
+      obj[char] = ++obj[char] || 1;
+    }
+  }
+  return obj;
+}
+
+function isAlphaNumberic(char) {
+  let code = char.charCodeAt(0);
+  if (
+    !(code > 47 && code < 58) &&
+    !(code > 64 && code < 91) &&
+    !(code > 96 && code < 123)
+  ) {
+    return false;
+  }
+  return true;
+}
