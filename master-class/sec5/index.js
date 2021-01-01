@@ -1,48 +1,46 @@
-function reverseArray(a) {
-  return a.reverse();
-}
-
-// 22. Step 4: Solve or simplify
-function charCount(str) {
-  // make object to return in the end
-  let result = {};
-
-  // loop over strings
-  for (let i = 0; i < str.length; i++) {
-    let char = str[i].toLowerCase();
-    // if the char is text/number in object, add one to count
-    if (result[char] > 0) {
-      result[char]++;
-    } else {
-      // if the char is NOT text/number, set value to 1
-      result[char] = 1;
-    }
+// A naive soluction - time complexity - N^2
+function same(arr1, arr2) {
+  if (arr1.length !== arr2.length) {
+    return false; // check length first
   }
-  // return object at end
-  return result;
-}
 
-// 23. Look back and Refactor
-function charCount(str) {
-  let obj = {};
-  // loop over strings
-  for (let char of str) {
-    if (isAlphaNumberic(char)) {
-      char = char.toLowerCase();
-      obj[char] = ++obj[char] || 1;
+  for (let i = 0; i < arr1.length; i++) {
+    let correctIndex = arr2.indexOf(arr1[i] ** 2); // return element that can be found
+    if (correctIndex === -1) {
+      return false; // if element doesn't match
     }
-  }
-  return obj;
-}
-
-function isAlphaNumberic(char) {
-  let code = char.charCodeAt(0);
-  if (
-    !(code > 47 && code < 58) &&
-    !(code > 64 && code < 91) &&
-    !(code > 96 && code < 123)
-  ) {
-    return false;
+    arr2.splice(correctIndex, 1); // start removing 1 element by comparing || splice() method changes the contents of an array
   }
   return true;
 }
+
+// [1, 2, 3, 2], [9, 1, 4, 4];
+
+// Frequency counter pattern - time complexity - O (n)
+function same(arr1, arr2) {
+  if (arr1.length !== arr2.length) {
+    return false;
+  }
+
+  let frequencyCounter1 = {};
+  let frequencyCounter2 = {};
+
+  for (let val of arr1) {
+    frequencyCounter1[val] = (frequencyCounter1[val] || 0) + 1;
+  }
+  for (let val of arr2) {
+    frequencyCounter2[val] = (frequencyCounter2[val] || 0) + 1;
+  }
+
+  for (let key in frequencyCounter1) {
+    if (!(key ** 2 in frequencyCounter2)) {
+      return false;
+    }
+    if (frequencyCounter2[key ** 2] !== frequencyCounter1[key]) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
