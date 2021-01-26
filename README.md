@@ -17,6 +17,7 @@ Solving algorithm problems with C++ language
 
 # Contents
 
+- [Array](/array)
 - [algorithms](#algorithms)
 - [Contents](#contents)
 - [TRY later](#try-later)
@@ -25,7 +26,6 @@ Solving algorithm problems with C++ language
 - [String](#string)
 - [StringStream](#stringstream)
 - [Vector](#vector)
-- [Array](#array)
 - [Linked list](#linked-list)
 - [Recursion](#recursion)
 - [Hash Map](#hash-map)
