@@ -33,3 +33,7 @@ O(n/k) k is the size of hash table.
 
 82. Hash tables VS Arrays 
 The problem of hash tables that idea of no concept of orders while in arrays, each item was placed next to each other on a shelf in memroy. 
+
+
+Hash tables 
+https://www.youtube.com/watch?v=F95z5Wxd9ks
