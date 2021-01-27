@@ -29,3 +29,7 @@ hash something really fast and map
     inserting phone number of user and stores both keys and values. become the same address.
 
 O(n/k) k is the size of hash table.
+
+
+82. Hash tables VS Arrays 
+The problem of hash tables that idea of no concept of orders while in arrays, each item was placed next to each other on a shelf in memroy. 
