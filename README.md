@@ -39,3 +39,10 @@ Solving algorithm problems with C++ language
 - [DP](#dp)
 - [Binary Search](#binary-search)
 - [Errors](#errors)
+
+# useful articles
+10 Common Data Structures Explained with Videos + Exercises
+(https://www.freecodecamp.org/news/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b/)
+
+Data structures and algorithms in JS
+(https://www.youtube.com/watch?v=t2CEgPsws3U&t=2221s)
