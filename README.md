@@ -1,21 +1,29 @@
-1.JS Master class
+### How to be a Web FE developer
 
-2.Scrimba
+# list of companies you wanna go
+i want to go these below. 
+- NAVER
+- KAKAO
+- LINE
+  Coupang
+  Baemin(Delivery hero Korea)
+  Karrot
+  Toss
+  Hyper connect
+  Yanolja
+  Sendbird
+  Zigzag
 
-3.YouTube
-https://www.youtube.com/watch?v=t2CEgPsws3U&list=RDCMUC8butISFwT-Wl7EV0hUK0BQ&start_radio=1&t=2237
+# CV/Resume 
+Write a simple CV to explain who you are. 
 
-4.CodeWars
+# Portfolio 
+Show what you have done so far with Github.
+For me, i will make oxinion/dividendKing/RoboTaxi full stack apps 
 
-5.LeetCode
-
-6.Exercism
-
-# algorithms
-
-Solving algorithm problems with C++ language
-
-# Contents
+# Data structures & algorithms
+Solving algorithm problems with your favoriate language.
+Leetcode/hackrank/Programmers
 
 - [Array](/array)
 - [algorithms](#algorithms)
@@ -40,6 +48,10 @@ Solving algorithm problems with C++ language
 - [Binary Search](#binary-search)
 - [Errors](#errors)
 
+
+# FE Interview Questions 
+Google FE dev interview questions 
+
 # useful articles
 
 10 Common Data Structures Explained with Videos + Exercises
@@ -50,3 +62,16 @@ Data structures and algorithms in JS
 
 algorithms-in-motion
 (https://www.manning.com/livevideo/algorithms-in-motion)
+
+  1.JS Master class
+
+  2.Scrimba
+
+  3.YouTube
+  https://www.youtube.com/watch?v=t2CEgPsws3U&list=RDCMUC8butISFwT-Wl7EV0hUK0BQ&start_radio=1&t=2237
+
+  4.CodeWars
+
+  5.LeetCode
+
+  6.Exercism
