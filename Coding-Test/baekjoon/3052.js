@@ -1,17 +1,19 @@
-let input = require("fs")
-  .readFileSync("/dev/stdin")
-  .toString()
-  .trim()
-  .split("\n");
+// let input = require("fs").readFileSync("/dev/stdin").toString().split("\n");
 
-const newArr = [];
+//let input = require("fs").readFileSync("/dev/stdin").toString().split("\n");
 
-input.forEach((x) => {
-  const num = x % 42;
+let input = [150, 266, 427];
+let sum = 0;
+for (let i = 0; i < input.length; i++) {
+  sum *= +input[i]; //
 
-  if (newArr.indexOf(num) === -1) {
-    newArr.push(num);
-  }
-});
+  let numArr = sum.split("").map((n) => n);
 
-console.log(newArr.length);
+  numArr.forEach(function (num) {
+    console.log(num);
+  });
+}
+
+for (let i = 0; i < 3; i++) {
+  multiply *= Number(input[i]);
+}
