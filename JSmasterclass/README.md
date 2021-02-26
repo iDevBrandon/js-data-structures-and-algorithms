@@ -14,3 +14,8 @@ Object.keys()
 Object.values()
 Object.entries()
 hasOwnProperty 
+
+#15. When are Arrays slow?
+Arrays Ordered Lists
+When you need order 
+When you need fast access/insertion and removal
