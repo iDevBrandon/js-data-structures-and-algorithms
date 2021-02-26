@@ -19,3 +19,6 @@ hasOwnProperty
 Arrays Ordered Lists
 When you need order 
 When you need fast access/insertion and removal
+
+#16. Big O of Array methods 
+push pop shift unshift concat slice splice sort forEach/map/filter/reduce 
