@@ -55,5 +55,16 @@ like here's some steps i gonna take ~~
 Explicitly write out the steps you need to take.
 
 
+22. Step 4: Solve or Simplify
+Find the core difficulty in what you're trying to do 
+Templorarily igonore that difficulty 
 
 
+23. Look back & refactor 
+Can you check the result 
+can you derive the result differently?
+can you understand it at a glance? 
+Can you use the result of method for some other problem?
+Can you improve the performance of your solution?
+Can you think of other ways to refactor? 
+How have other people solved this problem? 
