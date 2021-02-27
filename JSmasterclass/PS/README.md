@@ -35,3 +35,25 @@ Write a funciton which takes two numbers and returns their sum?
 3. int? float? string?
 4. what if someone pass only one number?
 5. 
+
+
+20. Step 2: Concrete Example 
+face a problem - write simple exampels wiht input and output 
+Progress to more xomplex examples 
+explore examples with empty inputs 
+explore exampels with invalid inputs 
+
+write a function which takes in a string and return coutns of each character in string 
+
+charCount('aaaa'); // {a:4}
+charCount('hello'); // {h:1, e:1, l:2, o:1}
+charCount("") // empty space 
+
+21. Step 3: Break it down 
+communicate what ur doing 
+like here's some steps i gonna take ~~ 
+Explicitly write out the steps you need to take.
+
+
+
+
