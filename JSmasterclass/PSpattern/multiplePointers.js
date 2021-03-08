@@ -12,5 +12,4 @@ sumZero([-4, -3, -2, -1, -1, 2, 5]);
 
 function sumZero(arr) {
   let newArr = arr.sort();
-  for(let i)
 }
